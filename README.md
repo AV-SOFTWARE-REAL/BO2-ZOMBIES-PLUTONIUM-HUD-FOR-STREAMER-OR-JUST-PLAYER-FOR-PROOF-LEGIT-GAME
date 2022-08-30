@@ -20,3 +20,7 @@ U CAN PASTE LMAO
 https://cdn.discordapp.com/attachments/514330582038347786/1014001372343050340/standard_1.gif
 
 
+PROOF IMAGE GAME WITH HUD : 
+https://cdn.discordapp.com/attachments/1011355423284138034/1014005010918555668/unknown.png
+
+
