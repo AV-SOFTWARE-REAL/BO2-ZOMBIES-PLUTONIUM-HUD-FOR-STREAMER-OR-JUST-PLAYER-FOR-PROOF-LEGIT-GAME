@@ -12,9 +12,11 @@ BEST STEALTH SERVER XBOX : https://www.xbhivestealth.com/
 
 
 
-
 U CAN PASTE LMAO
 
 
+
+
+https://cdn.discordapp.com/attachments/514330582038347786/1014001372343050340/standard_1.gif
 
 
