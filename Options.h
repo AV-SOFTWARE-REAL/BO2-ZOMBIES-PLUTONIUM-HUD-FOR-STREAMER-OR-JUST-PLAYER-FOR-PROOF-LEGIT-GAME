@@ -25,63 +25,63 @@ namespace void_hook {
 	{
 
 		//healthbar
-		if (*(int*)0x021C1568 == 250)
+		if (*(int*)0x021C1568 > 250)
 		{
 			variable_col_size::bar_health_size = 900;
 			variable_col_size::healthbar_r = 0;
 			variable_col_size::healthbar_g = 255;
 			variable_col_size::healthbar_b = 0;
 		}
-		else if (*(int*)0x021C1568 == 190)
+		else if (*(int*)0x021C1568 > 190)
 		{
 			variable_col_size::bar_health_size = 980;
 			variable_col_size::healthbar_r = 0;
 			variable_col_size::healthbar_g = 130;
 			variable_col_size::healthbar_b = 0;
 		}
-		else if (*(int*)0x021C1568 == 160)
+		else if (*(int*)0x021C1568 > 160)
 		{
 			variable_col_size::bar_health_size = 1020;
 			variable_col_size::healthbar_r = 0;
 			variable_col_size::healthbar_g = 110;
 			variable_col_size::healthbar_b = 0;
 		}
-		else if (*(int*)0x021C1568 == 140)
+		else if (*(int*)0x021C1568 > 140)
 		{
 			variable_col_size::bar_health_size = 1040;
 			variable_col_size::healthbar_r = 0;
 			variable_col_size::healthbar_g = 90;
 			variable_col_size::healthbar_b = 0;
 		}
-		else if (*(int*)0x021C1568 == 130)
+		else if (*(int*)0x021C1568 > 130)
 		{
 			variable_col_size::bar_health_size = 1080;
 			variable_col_size::healthbar_r = 0;
 			variable_col_size::healthbar_g = 40;
 			variable_col_size::healthbar_b = 0;
 		}
-		else if (*(int*)0x021C1568 == 100)
+		else if (*(int*)0x021C1568 > 100)
 		{
 			variable_col_size::bar_health_size = 980;
 			variable_col_size::healthbar_r = 255;
 			variable_col_size::healthbar_g = 255;
 			variable_col_size::healthbar_b = 0;
 		}
-		else if (*(int*)0x021C1568 == 70)
+		else if (*(int*)0x021C1568 > 70)
 		{
 			variable_col_size::bar_health_size = 1120;
 			variable_col_size::healthbar_r = 255;
 			variable_col_size::healthbar_g = 108;
 			variable_col_size::healthbar_b = 0;
 		}
-		else if (*(int*)0x021C1568 == 40)
+		else if (*(int*)0x021C1568 > 40)
 		{
 			variable_col_size::bar_health_size = 1150;
 			variable_col_size::healthbar_r = 255;
 			variable_col_size::healthbar_g = 128;
 			variable_col_size::healthbar_b = 0;
 		}
-		else if (*(int*)0x021C1568 == 10)
+		else if (*(int*)0x021C1568 > 10)
 		{
 			variable_col_size::bar_health_size = 1190;
 			variable_col_size::healthbar_r = 255;
@@ -95,49 +95,49 @@ namespace void_hook {
 	//-----------------------------------------------------------------------------------------------------------------------//
 	void health_string()
 	{
-		if (*(int*)0x021C1568 == 40)
+		if (*(int*)0x021C1568 > 40)
 		{
 			variable_col_size::G_Health = 0;
 			variable_col_size::B_Health = 0;
 		}
-		else if (*(int*)0x021C1568 == 80)
+		else if (*(int*)0x021C1568 > 80)
 		{
 			variable_col_size::G_Health = 128;
 			variable_col_size::B_Health = 0;
 		}
-		else if (*(int*)0x021C1568 == 250)
+		else if (*(int*)0x021C1568 > 250)
 		{
 			char Health[64];
 			sprintf_s(Health, "Health : %i", *(int*)0x021C1568);
 			ImGui::GetOverlayDrawList()->AddText(ImVec2(310, 950), ImColor(variable_col_size::Rain_Red, variable_col_size::Rain_Green, variable_col_size::Rain_Blue, 255.f), Health);
 		}
-		else if (*(int*)0x021C1568 == 100)
+		else if (*(int*)0x021C1568 > 100)
 		{
 			variable_col_size::R_Health = 0;
 			variable_col_size::G_Health = 128;
 			variable_col_size::B_Health = 0;
 		}
 
-		else if (*(int*)0x021C1568 == 190)
+		else if (*(int*)0x021C1568 > 190)
 		{
 			variable_col_size::R_Health = 0;
 			variable_col_size::G_Health = 170;
 			variable_col_size::B_Health = 0;
 		}
 
-		else if (*(int*)0x021C1568 == 170)
+		else if (*(int*)0x021C1568 > 170)
 		{
 			variable_col_size::R_Health = 0;
 			variable_col_size::G_Health = 140;
 			variable_col_size::B_Health = 0;
 		}
-		else if (*(int*)0x021C1568 == 90)
+		else if (*(int*)0x021C1568 > 90)
 		{
 			variable_col_size::R_Health = 0;
 			variable_col_size::G_Health = 40;
 			variable_col_size::B_Health = 0;
 		}
-		else if (*(int*)0x021C1568 == 10)
+		else if (*(int*)0x021C1568 > 10)
 		{
 			variable_col_size::R_Health = 255;
 			variable_col_size::G_Health = 0;
